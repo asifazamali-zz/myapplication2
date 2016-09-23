@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="edit_message">Enter password</string>
+    <string name="login">Login</string>
+    <string name="VerySensitive">Very Sensitive</string>
+    <string name="Sharable">Sharable</string>
+    <string name="Normal">Normal</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="send_button">Send</string>
+    <item name="preference_variable_file" type="id">com.example.asif.myapplication.variables</item>
+</resources>
