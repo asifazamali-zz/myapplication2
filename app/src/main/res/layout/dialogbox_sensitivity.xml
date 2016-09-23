@@ -10,17 +10,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <RadioButton android:id="@+id/verysensitive"
+        <RadioButton android:id="@+id/sensitive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/VerySensitive"
+            android:text="@string/sensitive"
             android:checked="true"
             />
-        <RadioButton android:id="@+id/sharable"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Sharable"
-            />
+
         <RadioButton android:id="@+id/normal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -39,13 +35,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SAVE"/>
-            <!--android:onClick="save_choice" />-->
+        <!--android:onClick="save_choice" />-->
 
         <!--<Button-->
-            <!--android:id="@+id/cancel"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:text="Cancel" />-->
+        <!--android:id="@+id/cancel"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Cancel" />-->
 
     </LinearLayout>
 </LinearLayout>
